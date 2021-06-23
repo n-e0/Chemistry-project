@@ -18,6 +18,9 @@ body {
     color: #c2c2c2;
   }
   
+/*ul li::marker{
+    content: "•";
+}*/
 
 ol li::marker, ul li::marker {
     color: #924441;
