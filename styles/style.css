@@ -1,27 +1,47 @@
 body {
-    background-color: #282c34;
+  background-color: #282c34;
   }
-  h1, hr {
-    color: #924441;
+h1, hr {
+  color: #924441;
   }
-  a:link, a:visited {
-    background-color: #282c34;
-    color: #c2c2c2;
-    text-decoration: none;
+a:link, a:visited {
+  background-color: #282c34;
+  color: #c2c2c2;
+  text-decoration: none;
   }
-  a:hover, pre {
-    background-color: #282c34;
-    color: #924441;
-    text-decoration: none;
+a:hover, pre {
+  background-color: #282c34;
+  color: #924441;
+  text-decoration: none;
   }
-  h2, ol, p {
-    color: #c2c2c2;
+h2, ol, p {
+  color: #c2c2c2;
   }
-  
-/*ul li::marker{
-    content: "•";
-}*/
+
+ul li::marker{
+  content: "•";
+}
 
 ol li::marker, ul li::marker {
-    color: #924441;
+  color: #924441;
+}
+
+button {
+  color: #c2c2c2;
+  background: none;
+  padding: 1em 2em;
+  border: 2.5px solid;
+  font-size: 1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  margin-left: 33.3333334%;
+}
+
+button:hover {
+  border-color: #924441;
+  border-radius: 10px;
+  color: hex(92444);
+  box-shadow: 0 1em 1em -0.5em rgba(146,68,65, 0.95);
+  transform: translateY(-0.5em) rotate(360deg);
+  cursor: pointer;
+  transition: border-radius 3s;
 }
